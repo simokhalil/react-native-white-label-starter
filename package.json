@@ -1,0 +1,37 @@
+{
+  "name": "RNWhiteLabel",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "gulp startApp",
+    "test": "jest",
+    "switch:main": "gulp --tenant main",
+    "switch:tenant2": "gulp --tenant tenant2",
+    "switch:android:main": "gulp switchTenant --platform android --tenant main",
+    "switch:android:tenant2": "gulp switchTenant --platform android --tenant tenant2",
+    "switch:ios:main": "gulp switchTenant --platform ios --tenant main",
+    "switch:ios:tenant2": "gulp switchTenant --platform ios --tenant tenant2"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-native": "0.58.4",
+    "react-native-config": "^0.11.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-jest": "24.1.0",
+    "babel-plugin-import-customization": "^1.0.4",
+    "babel-preset-react-native": "^4.0.1",
+    "cross-env": "^5.2.0",
+    "dotenv": "^7.0.0",
+    "fs-extra": "^7.0.1",
+    "gulp": "^4.0.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3",
+    "yargs": "^13.2.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

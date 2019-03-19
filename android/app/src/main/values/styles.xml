@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">#5eafbd</item>
+        <item name="colorPrimaryDark">#5eafbd</item>
+        <item name="colorAccent">#5eafbd</item>
+    </style>
+</resources>

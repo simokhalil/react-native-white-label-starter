@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.rnwhitelabel"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+    <application
+            android:name=".MainApplication"
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:theme="@style/AppTheme">
+
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme"
+                android:screenOrientation="portrait"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+                android:windowSoftInputMode="adjustResize"
+                android:launchMode="singleTask"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+
+            <!-- Deep Linking -->
+            <intent-filter>
+                <!-- This is just configuration -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- This is the important stuff. Link to Android docs below -->
+                <data android:scheme="https" />
+
+                <data android:host="www-r2.cbp4you.fr" />
+                <data android:host="www-i1.cbp4you.fr" />
+                <data android:host="www.cbp4you.fr" />
+
+                <data android:pathPrefix="/compte/creation/details" />
+                <data android:pathPrefix="/compte/creation/informations" />
+                <data android:pathPrefix="/compte/creation/finalisation" />
+                <data android:pathPrefix="/motdepasseoublie" />
+                <data android:pathPrefix="/connexion" />
+
+            </intent-filter>
+
+        </activity>
+    </application>
+</manifest>

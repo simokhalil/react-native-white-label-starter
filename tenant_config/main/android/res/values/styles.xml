@@ -1,0 +1,18 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    <item name="android:datePickerDialogTheme">@style/MyDialogTheme</item>
+    <item name="android:timePickerDialogTheme">@style/MyDialogTheme</item>
+  </style>
+
+  <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/launch_screen_bitmap</item>
+  </style>
+
+  <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+     <item name="colorPrimary">#5eafbd</item>
+     <item name="colorPrimaryDark">#5eafbd</item>
+     <item name="colorAccent">#5eafbd</item>
+  </style>
+</resources>

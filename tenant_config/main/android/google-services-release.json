@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "249563375345",
+    "firebase_url": "https://cbp4you-fr.firebaseio.com",
+    "project_id": "cbp4you-fr",
+    "storage_bucket": "cbp4you-fr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249563375345:android:38f631c26607d577",
+        "android_client_info": {
+          "package_name": "com.CBP.AppMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249563375345-nonn5r7g8k4n2v89vsqedjnqi2loa8n1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "249563375345-nonn5r7g8k4n2v89vsqedjnqi2loa8n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKa8qwf3_mEgOflQUzN2rQ17jYW4kZXAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

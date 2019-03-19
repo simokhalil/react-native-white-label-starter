@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "579935652666",
+    "firebase_url": "https://application-mobile-c214f.firebaseio.com",
+    "project_id": "application-mobile-c214f",
+    "storage_bucket": "application-mobile-c214f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579935652666:android:796d43525b820e27",
+        "android_client_info": {
+          "package_name": "com.cbp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579935652666-035ctvfhgpmt96pegp24vab4ivvaf14r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwynLDC71qfPtlNjKh07M2_bfsj3rotUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579935652666:android:38f631c26607d577",
+        "android_client_info": {
+          "package_name": "com.CBP.AppMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579935652666-035ctvfhgpmt96pegp24vab4ivvaf14r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwynLDC71qfPtlNjKh07M2_bfsj3rotUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
